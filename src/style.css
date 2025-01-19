@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+/*Eliminando estilos por defecto*/
+p {
+  margin: 0;
+}
+
+/*Añadiendo estilos*/
+body {
+  background-color: green;
+}
+h1 {
+  color: whitesmoke;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  width: 40vh;
+  height: 60vh;
+  margin: auto;
+  display: grid;
+  padding: 10px 20px;
+  box-shadow: 10px 10px 5px darkgreen;
+}
+.upper-symbol {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+.upper-symbol p {
+  font-size: 8vh;
+  line-height: 1;
+}
+.number {
+  position: relative;
+  top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vh;
+}
+
+.lower-symbol {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 8vh;
+  max-height: 100%;
+}
+.timer {
+  margin-top: 5vh;
+  color: whitesmoke;
+  font-size: 5vh;
+}
